@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 50vh;
+    background: url("DSC_0090.JPG");
+    background-size: cover;
+    background-position: center;
+    /* opacity: .6; */
+}
+ul{
+    display: flex;
+    justify-content: end;
+}
+ul li{
+    margin: 0 10px;
+    list-style: none;
+    /* overflow: hidden; */
+    color: antiquewhite;
+    margin-top: 10px;
+   
+}
+ /* li:hover{
+    color:black;
+    border: 1px blue solid; 
+    background:white;
+    transform: scale(1.2)
+} */
+ul li a{
+    text-decoration: none;
+    color: crimson;
+    transition: transform .2s;
+}
+.main{
+    display: flex;
+  justify-content: space-around;
+}
+.se1{
+    margin-top: 300px;
+    background:black;
+    /* display: flex; */
+    padding-top: 10px;
+    height: 250px;
+    width: 400px;
+    margin-left: 5px;
+    /* align-content: center; */
+    color: black;
+    transition: .2s;
+}
+p{
+    display: block;
+    padding: 10px;
+}
+.se1{
+    color: white;
+}
+.se1:hover{
+    transform: scale(1.1);
+}
+.h1{
+    color: white;
+    padding: 0 170px;
+}
+.h2{
+    padding: 0 170px;
+}
+.h3
+{
+    padding: 0 170px;
+}
+.wel{
+    color: white;
+    font-size: 50px;
+    margin-right: 100px;
+    padding: 10px 0;    
+    margin-top:150px;
+    margin-left: 590px;
+    position: fixed;
+    align-content: center;
+}
+.wel-heading{
+    color: white; /* Initial color */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for color and transform */
+}
+
+.wel:hover {
+    color: cornflowerblue; /* Color on hover */
+    transform: scale(1.1); /* Scale up the text */
+}
+.rps{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    color: white;
+}
+.fa-linkedin{
+    color: blue;
+    font-size: 25px;
+}

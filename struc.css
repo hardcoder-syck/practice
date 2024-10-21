@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #0a1930;
+}
+.erp{
+    display: flex;
+    justify-content:end;
+    align-items: center;    
+}
+ol{
+    display: flex;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-style: normal;
+    font-size: large;
+    word-spacing: 1px;
+    outline: none;
+}
+main{
+    background-color:  #0a1930;
+    height: 100vh;
+    display: flex;
+    color: #67b4b4;
+    font-family: 'Courier New', Courier, monospace;
+}
+h5{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding-left: 100px;
+    padding-top: 10px; */
+    /* font-size: 300px; */
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    padding-left: 145px;
+    color: #cddbf7;
+    font-size: 50px;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    padding-left: 145px;
+    font-size: 50px;
+    color: #8b94b2;
+}
+span{
+    color: #3b958d;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    padding-left: 145px;
+    color: #8b94b2;
+}
+li{
+    color: white;
+    margin: 0 10px;
+    padding: 5px px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.por{
+    margin-top: 75px;
+}
+button{
+    color:aqua;
+    border: 1px aqua solid;
+    height: 40px; 
+    width: 100px; 
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding-right: 15px;
+    text-align: center;
+    width:100px;
+    padding: 5px;
+    outline: none;
+    background: none;
+    padding-bottom: 10px;
+
+} 
+.rp{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 150px;
+}
+h6{
+    color: blue;
+    margin-left: 50px;
+    margin-right: 725px;
+    font-size: 20px;
+}
+.er{
+    color: aliceblue;
+    padding-right: 50%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
